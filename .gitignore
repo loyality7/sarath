@@ -1,0 +1,32 @@
+# ── BUILT ASSETS ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── EDITOR / OS ────────────────────────────────────────
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ── DEPENDENCIES ──────────────────────────────────────
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ── BUILD OUTPUTS ──────────────────────────────────────
+dist/
+build/
+*.min.js
+*.min.css
+
+# ── MISC ───────────────────────────────────────────────
+*.log
+.env
+.env.local
+
+# ── PROJECT-SPECIFIC: design source files not committed
+info.txt
+design.md

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="C Sarath Babu — Tech Freelancer, Security Researcher & DevSecOps Engineer. Portfolio." />
+  <title>SARATH.OS // PORTFOLIO v2.4</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- BOOT SCREEN -->
+  <div id="boot-screen" role="status" aria-live="polite" aria-label="System boot sequence">
+    <div class="boot-output" id="boot-output"></div>
+  </div>
+
+  <!-- SCANLINES OVERLAY -->
+  <div id="scanlines" aria-hidden="true"></div>
+
+  <!-- NOISE CANVAS -->
+  <canvas id="noise-canvas" aria-hidden="true"></canvas>
+
+  <!-- MATRIX RAIN CANVAS -->
+  <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+
+  <!-- KONAMI FLASH -->
+  <div id="konami-flash" aria-hidden="true"></div>
+
+  <!-- BACKGROUND HOVER INTERACTION CANVAS -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- MAIN APP -->
+  <div id="app" aria-hidden="true">
+
+    <!-- NAV -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <div class="nav-left">
+        <span class="nav-logo">SARATH.OS</span>
+        <span class="nav-sep">/</span>
+        <span class="nav-version">v2.4.1</span>
+      </div>
+      <div class="nav-right">
+        <a href="#about"    class="nav-link">ABOUT</a>
+        <a href="#experience" class="nav-link">EXP</a>
+        <a href="#projects" class="nav-link">PROJECTS</a>
+        <a href="#skills"   class="nav-link">SKILLS</a>
+        <a href="https://github.com/loyality7" class="nav-link nav-link-icon" target="_blank" rel="noopener nofollow" aria-label="GitHub">[GH]</a>
+        <a href="https://www.linkedin.com/in/csarathbabu/" class="nav-link nav-link-icon" target="_blank" rel="noopener nofollow" aria-label="LinkedIn">[LN]</a>
+        <span class="nav-clock" id="live-clock" aria-live="off" aria-label="System time">[ SYS // --:--:-- ]</span>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero" id="hero">
+      <pre class="hero-ascii" aria-hidden="true">
++======================+
+| SARATH.OS v2.4.1   |
+| PORTFOLIO           |
++======================+</pre>
+      <div class="hero-name" id="hero-name">
+        <span class="glitch-text" data-text="C SARATH BABU">C SARATH BABU</span>
+      </div>
+      <div class="hero-divider" aria-hidden="true">──────────────────────────────────────</div>
+      <div class="hero-role">
+        <span class="role-prefix">&gt;_</span>
+        <span class="role-text" id="role-text"></span>
+        <span class="role-cursor" id="role-cursor">▌</span>
+      </div>
+      <p class="hero-tagline">&gt; BUILDER-RESEARCHER · PURPOSE-DRIVEN · SIMPLICITY FIRST</p>
+      <p class="hero-sub">BUILD://SECURE://LEARN://REPEAT</p>
+    </header>
+
+    <!-- SECTION: ABOUT -->
+    <section class="section" id="about">
+      <div class="section-header">
+        <span class="section-num">[01]</span>
+        <pre class="section-ascii" aria-hidden="true">─── SYSTEM.IDENTITY ───</pre>
+      </div>
+      <div class="section-body">
+        <div class="sys-block">
+          <pre class="sys-label">LOADING CONFIG...</pre>
+          <div class="sys-grid">
+            <div class="sys-row"><span class="sys-key">user:</span>     <span class="sys-val">C SARATH BABU</span></div>
+            <div class="sys-row"><span class="sys-key">handle:</span>   <span class="sys-val">@sarath_babu</span></div>
+            <div class="sys-row"><span class="sys-key">location:</span> <span class="sys-val">INDIA</span></div>
+            <div class="sys-row"><span class="sys-key">status:</span>   <span class="sys-val" style="color:var(--color-green)">● AVAILABLE FOR WORK</span></div>
+            <div class="sys-row"><span class="sys-key">focus:</span>    <span class="sys-val">DEVSEOPS · SECURITY · AI AGENTS</span></div>
+            <div class="sys-row"><span class="sys-key">philosophy:</span><span class="sys-val">"SIMPLICITY FIRST. DATA SOVEREIGN. LOCAL-FIRST."</span></div>
+          </div>
+        </div>
+        <div class="about-bio">
+          <p>> BUILDER-RESEARCHER NARRATIVE: I DON'T JUST HOLD CERTIFICATIONS — I BUILD TOOLS TO SOLVE THE PROBLEMS I RESEARCH.</p>
+          <p>> FROM GENERIC DEVELOPMENT TO SECURITY-FIRST, LOCAL-FIRST AI. QUANTIFIED IMPACT: 50+ CYBERCRIME RESOLUTIONS · AI DEVCON SPEAKER</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section-header">
+        <span class="section-num">[02]</span>
+        <pre class="section-ascii" aria-hidden="true">─── LOG.EXPERIENCE ───</pre>
+      </div>
+      <div class="section-body">
+        <div class="timeline">
+
+          <article class="t-entry">
+            <div class="t-date">[ APR 2025 — PRESENT ]</div>
+            <div class="t-content">
+              <span class="t-role">FREELANCER (CORPORATE)</span>
+              <p>> SPECIALIZED IN FIXING "AI SLOP," DEBUGGING CODE, DESIGNING SECURE CUSTOM AI AGENTS.</p>
+              <p>> CLIENTS: CORPORATE SECURITY TEAMS · STARTUPS · OPENSOURCE CONTRIBUTORS</p>
+            </div>
+          </article>
+
+          <article class="t-entry">
+            <div class="t-date">[ APR 2024 — NOV 2024 ]</div>
+            <div class="t-content">
+              <span class="t-role">DEVSECOPS ENGINEER INTERN — HYSTERESIS PVT. LTD.</span>
+              <p>> CI/CD PIPELINES: AWS / AZURE / VULTR · DOCKER · KUBERNETES</p>
+              <p>> MONITORING: PROMETHEUS / GRAFANA · SAST / DAST AUTOMATION</p>
+            </div>
+          </article>
+
+          <article class="t-entry">
+            <div class="t-date">[ JUL 2023 — JUL 2024 ]</div>
+            <div class="t-content">
+              <span class="t-role">MICROSOFT LEARN STUDENT AMBASSADOR (BETA)</span>
+              <p>> COMMUNITY TECH LEADER · WORKSHOPS · CLOUD & SECURITY TRAINING</p>
+            </div>
+          </article>
+
+          <article class="t-entry">
+            <div class="t-date">[ 2022 — PRESENT ]</div>
+            <div class="t-content">
+              <span class="t-role">NATIONAL CYBER CRIME DEPARTMENT — VOLUNTEER</span>
+              <p>> REPORTED 50+ CYBERCRIMES · 60% RESOLVED WITH LOCAL POLICE</p>
+              <p>> FRAUD INVESTIGATION · DIGITAL FORENSICS · CYBER AWARENESS</p>
+            </div>
+          </article>
+
+          <article class="t-entry">
+            <div class="t-date">[ 2021 — 2024 ]</div>
+            <div class="t-content">
+              <span class="t-role">BCA — SHRI GNANAMBICA DEGREE COLLEGE, MADANAPALLI</span>
+              <p>> NAAC A+ ACCREDITED · COMPUTER APPLICATIONS</p>
+            </div>
+          </article>
+
+          <article class="t-entry">
+            <div class="t-date">[ 2022 — 2023 ]</div>
+            <div class="t-content">
+              <span class="t-role">PGP CYBERSECURITY — SIMPLILEARN (MIT SCC × EC-COUNCIL)</span>
+              <p>> POSTGRADUATE PROGRAM WITH MIT SCHWARZMAN COLLEGE OF COMPUTING</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-header">
+        <span class="section-num">[03]</span>
+        <pre class="section-ascii" aria-hidden="true">─── LIST.PROJECTS ───</pre>
+      </div>
+      <div class="section-body">
+        <div class="project-grid">
+
+          <article class="proj-card" tabindex="0" aria-label="Quarantine - Android Firewall App">
+            <div class="proj-label">QUARANTINE</div>
+            <h3 class="proj-title">ANDROID FIREWALL APP</h3>
+            <div class="proj-output" aria-hidden="true">
+              <p>> loading quarantine.apk...</p>
+              <p>> status: <span style="color:var(--color-green)">ACTIVE</span></p>
+              <p>> threat_blocked: 1,204+</p>
+              <p>> last_updated: 2025</p>
+              <p>> mode: LOCAL VPN · PER-APP TRACKING</p>
+            </div>
+            <div class="proj-tags">
+              <span>ANDROID</span><span>VPN</span><span>KOTLIN</span>
+            </div>
+          </article>
+
+          <article class="proj-card" tabindex="0" aria-label="DailyWin - Habit Tracker">
+            <div class="proj-label">DAILYWIN</div>
+            <h3 class="proj-title">HABIT / STREAK TRACKER</h3>
+            <div class="proj-output" aria-hidden="true">
+              <p>> initializing dailywin...</p>
+              <p>> status: <span style="color:var(--color-green)">LIVE</span></p>
+              <p>> feature: DOPAMINE-BASED PUBLIC ACCOUNTABILITY</p>
+              <p>> users_tracked: GROWING</p>
+            </div>
+            <div class="proj-tags">
+              <span>WEBAPP</span><span>REACT</span><span>NOTION API</span>
+            </div>
+          </article>
+
+          <article class="proj-card" tabindex="0" aria-label="LFCS Practice Tool">
+            <div class="proj-label">LFCS.TOOL</div>
+            <h3 class="proj-title">LINUX CERT PREP CLI</h3>
+            <div class="proj-output" aria-hidden="true">
+              <p>> running lfcs practice tool...</p>
+              <p>> status: <span style="color:var(--color-amber)">BETA</span></p>
+              <p>> scenarios: 83 AUTOMATED</p>
+              <p>> cert: LINUX FOUNDATION · EX200</p>
+            </div>
+            <div class="proj-tags">
+              <span>RUST</span><span>CLI</span><span>LINUX</span>
+            </div>
+          </article>
+
+          <article class="proj-card" tabindex="0" aria-label="n0ne - Programming Language">
+            <div class="proj-label">n0ne</div>
+            <h3 class="proj-title">STATICALLY TYPED LANGUAGE</h3>
+            <div class="proj-output" aria-hidden="true">
+              <p>> compiling n0ne source...</p>
+              <p>> status: <span style="color:var(--color-amber)">IN DEV</span></p>
+              <p>> goal: NATIVE BINARY · ZERO RUNTIME</p>
+              <p>> toolchain: RUST-BASED</p>
+            </div>
+            <div class="proj-tags">
+              <span>RUST</span><span>COMPILER</span><span>LANG-DEV</span>
+            </div>
+          </article>
+
+          <article class="proj-card" tabindex="0" aria-label="Grasp - AI Learning Platform">
+            <div class="proj-label">GRASP()</div>
+            <h3 class="proj-title">AI LEARNING PLATFORM</h3>
+            <div class="proj-output" aria-hidden="true">
+              <p>> processing grasp.ai...</p>
+              <p>> status: <span style="color:var(--color-amber)">BUILDING</span></p>
+              <p>> inputs: PDF / NOTES / VIDEO / LECTURES</p>
+              <p>> outputs: EXPLANATIONS · QUIZZES · FLASHCARDS</p>
+            </div>
+            <div class="proj-tags">
+              <span>AI/ML</span><span>PYTHON</span><span>EDTECH</span>
+            </div>
+          </article>
+
+          <article class="proj-card" tabindex="0" aria-label="aicli-x - Terminal AI Assistant">
+            <div class="proj-label">aicli-x</div>
+            <h3 class="proj-title">TERMINAL AI ASSISTANT</h3>
+            <div class="proj-output" aria-hidden="true">
+              <p>> invoking aicli-x...</p>
+              <p>> status: <span style="color:var(--color-green)">ACTIVE</span></p>
+              <p>> mode: NATURAL LANGUAGE · DIAGNOSTICS</p>
+              <p>> weight: LIGHTWEIGHT · CLI-NATIVE</p>
+            </div>
+            <div class="proj-tags">
+              <span>TERMINAL</span><span>AI</span><span>RUST</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: SKILLS -->
+    <section class="section" id="skills">
+
+          <div class="skill-entry">
+            <span class="skill-name">DEVSECOPS / CI-CD</span>
+            <span class="skill-pct" data-target="90">0%</span>
+            <div class="skill-bar" data-fill="90" aria-label="DevSecOps skill: 90%"><span class="skill-bar-fill"></span></div>
+          </div>
+
+          <div class="skill-entry">
+            <span class="skill-name">CYBERSECURITY</span>
+            <span class="skill-pct" data-target="95">0%</span>
+            <div class="skill-bar" data-fill="95" aria-label="Cybersecurity skill: 95%"><span class="skill-bar-fill"></span></div>
+          </div>
+
+          <div class="skill-entry">
+            <span class="skill-name">CLOUD (AWS / AZURE / GCP)</span>
+            <span class="skill-pct" data-target="85">0%</span>
+            <div class="skill-bar" data-fill="85" aria-label="Cloud skill: 85%"><span class="skill-bar-fill"></span></div>
+          </div>
+
+          <div class="skill-entry">
+            <span class="skill-name">CONTAINERS / K8S</span>
+            <span class="skill-pct" data-target="88">0%</span>
+            <div class="skill-bar" data-fill="88" aria-label="Containers skill: 88%"><span class="skill-bar-fill"></span></div>
+          </div>
+
+          <div class="skill-entry">
+            <span class="skill-name">RUST / SYSTEMS</span>
+            <span class="skill-pct" data-target="75">0%</span>
+            <div class="skill-bar" data-fill="75" aria-label="Rust skill: 75%"><span class="skill-bar-fill"></span></div>
+          </div>
+
+          <div class="skill-entry">
+            <span class="skill-name">AI / ML AGENTS</span>
+            <span class="skill-pct" data-target="80">0%</span>
+            <div class="skill-bar" data-fill="80" aria-label="AI/ML skill: 80%"><span class="skill-bar-fill"></span></div>
+          </div>
+
+          <div class="skill-entry">
+            <span class="skill-name">PYTHON / SCRIPTING</span>
+            <span class="skill-pct" data-target="92">0%</span>
+            <div class="skill-bar" data-fill="92" aria-label="Python skill: 92%"><span class="skill-bar-fill"></span></div>
+          </div>
+
+          <div class="skill-entry">
+            <span class="skill-name">DIGITAL FORENSICS</span>
+            <span class="skill-pct" data-target="82">0%</span>
+            <div class="skill-bar" data-fill="82" aria-label="Forensics skill: 82%"><span class="skill-bar-fill"></span></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS (hidden by default, unlocked by Konami code) -->
+    <section class="section hidden-section" id="certifications" aria-hidden="true">
+      <div class="section-header">
+        <span class="section-num">[???]</span>
+        <pre class="section-ascii" aria-hidden="true">─── CERT.TREE ─── (LOCKED)</pre>
+      </div>
+      <div class="section-body">
+        <div class="cert-grid">
+          <div class="cert-card">[ CISSP ] ALIGNED TRAINING</div>
+          <div class="cert-card">[ CEH ] EC-COUNCIL</div>
+          <div class="cert-card">[ SEC+ ] COMPTIA</div>
+          <div class="cert-card">[ MIT SCC ] CERTIFICATE</div>
+          <div class="cert-card">[ ISO 27001 ] MASTER</div>
+          <div class="cert-card">[ GC AI ] GOOGLE CLOUD</div>
+          <div class="cert-card">[ MS EDUCATOR ] MICROSOFT</div>
+          <div class="cert-card">[ ML URBAN ] ISRO</div>
+          <div class="cert-card">[ FOUNDATIONS ] SKILLFRONT</div>
+          <div class="cert-card">[ CYBER SURAKSHA ] TATA</div>
+          <div class="cert-card">[ BUG BOUNTY ] CODERED</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / HIRE -->
+    <section class="section cta-section">
+      <div class="section-body cta-body">
+        <p class="cta-pre">&gt; STATUS: AVAILABLE FOR COLLABORATION</p>
+        <a href="mailto:sarath@example.com" class="cta-btn" aria-label="Contact via email">
+          <span class="cta-btn-label">[ INIT_CONTACT ]</span>
+        </a>
+        <p class="cta-post">&gt; ENCRYPTED COMMS · RESPONSE WITHIN 24H</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-sep" aria-hidden="true">═══════════════════════════════════════════════════</div>
+      <div class="footer-meta">
+        <a href="https://github.com/loyality7" class="footer-link" target="_blank" rel="noopener nofollow">GITHUB // loyality7</a>
+        <a href="https://www.linkedin.com/in/csarathbabu/" class="footer-link" target="_blank" rel="noopener nofollow">LINKEDIN // csarathbabu</a>
+        <span>UPTIME: <span id="uptime-counter">00:00:00</span></span>
+        <span>KERNEL: sarath-os/2.4.1</span>
+        <span>BUILD: 20250627-STABLE</span>
+        <span>MEM: 0.00MB / ∞</span>
+      </div>
+      <p class="footer-copy">&copy; C SARATH BABU // ALL RIGHTS RESERVED // DATA SOVEREIGN</p>
+    </footer>
+
+  </div><!-- /#app -->
+
+  <script src="js/main.js"></script>
+</body>
+</html>
